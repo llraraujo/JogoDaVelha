@@ -1,2 +1,4 @@
 # JogoDaVelha
-Jogo da Velha para o curso grátis do TinDinEscola.
+
+
+Jogo da velha utilizando HTML e Javascript. 
