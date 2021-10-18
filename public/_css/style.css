@@ -1,0 +1,58 @@
+.esquerda{
+    width: 420px;
+    height: 300px;
+    background-color: burlywood;
+    border: 1px solid blue;
+    border-radius: 10px;
+    float:left;
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+.direita{
+    
+    width: 420px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgb(141, 103, 201);
+    margin: 10px;
+    margin-left: 20px ;
+    text-align: center;
+    float: right;
+    display: block;
+    
+}
+
+
+.botao{
+    text-align: center;
+    margin-top: 150px;
+    clear: both;
+    display: block;
+}
+
+
+.btn{
+    border-radius: 12px;
+    font-size: 40px;
+}
+
+.htp{
+    
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    color: darkblue;
+    text-shadow: black;
+}
+
+
+
+
+
+
+
+
+

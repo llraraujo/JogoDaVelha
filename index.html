@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/_css/style.css">
+    
+    <title>JOGO DA VELHA</title>
+</head>
+<body>
+    <div class="container">
+
+        
+        <h3 class="htp">PARA JOGAR VOCÊ DEVE PRIMEIRO ESCOLHER SUA JOGADA(PEDRA, PAPEL OU TESOURA) E PARA ISSO VOCÊ DEVE CLICAR EM UMA DAS IMAGENS
+            QUE TEM NA CAIXA "JOGADOR". FEITO ISSO, VOCÊ DEVE CLICAR NO BOTÃO "JOGAR". VENCERÁ A PARTIDA QUEM CHEGAR AOS 3 PONTOS PRIMEIRO. 
+            BOA SORTE!
+        </h3>
+        
+
+        <div class="esquerda">
+            <h2>JOGADOR</h2>
+
+            <img id="pedra" src="public/_img/pedra.png" onclick="jogada(0)">
+
+            <img id="papel" src="public/_img/papel.png" onclick="jogada(1)"> 
+
+            <img id="tesoura" src="public/_img/tesoura.png" onclick="jogada(2)">
+
+           <p>Você escolheu:<span class="mao"></span></p>
+
+            
+
+            <h3 class="placar1">Pontos: 0</h3>
+
+        </div>
+
+
+
+        <div class="direita">
+            <h2>COMPUTADOR</h2>
+            <img src="public/_img/pedra.png">
+            <img src="public/_img/papel.png" >
+            <img src="public/_img/tesoura.png" >
+            <p>CPU escolheu:<span id="cpu" class="maocpu"></span></p>
+            <h3 class="placar2">Pontos: 0</h3>   
+        </div>
+
+        <div class="botao">
+            <button class="btn" onclick="jogar()">JOGAR</button>
+        </div>
+
+
+
+
+
+        
+    </div>
+
+    
+
+
+    
+    <script src="public/_js/init.js"></script>
+    <script src="public/_js/jquery.js"></script>
+
+</body>
+</html>
